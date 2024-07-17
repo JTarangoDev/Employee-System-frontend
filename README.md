@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Employee Management System - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This is the frontend component of the Employee Management System, a full-stack application. It provides a user-friendly interface for interacting with the employee data, built with React and communicating with a Spring Boot backend.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- View list of all employees
+- Add new employees
+- Edit existing employee information
+- Delete employees
+- Responsive web interface
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React.js
+- Axios for API calls
+- React Router for navigation
+- Bootstrap for styling
 
-### `npm test`
+## Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. React components for displaying and managing employee data
+2. Axios configurations for making HTTP requests to the backend API
+3. React Router setup for handling navigation
+4. Bootstrap integration for responsive design
 
-### `npm run build`
+## Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js and npm
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How to Run
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository
+2. Navigate to the project directory
+3. Install dependencies.
+4. Start the React development server.
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Open a web browser and navigate to `http://localhost:3000`
+2. Use the web interface to:
+- View the list of employees
+- Add new employees using the "Add Employee" button
+- Edit employee information by clicking the "Edit" button
+- Delete employees using the "Delete" button
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Project Status
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This frontend component is complete and functional. It's designed to work in conjunction with the backend component of the Employee Management System.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Learning Objectives
 
-## Learn More
+- Frontend development with React
+- State management in React applications
+- HTTP communication with backend API
+- Responsive web design with Bootstrap
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Implementation Details
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Built with React, using functional components and hooks
+- Axios is used for making HTTP requests to the backend API
+- React Router manages navigation within the single-page application
+- Bootstrap ensures a responsive and mobile-friendly design
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This frontend is part of a full-stack Employee Management System. For the complete application, please also refer to the backend repository.
