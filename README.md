@@ -3,6 +3,7 @@
 ## Description
 
 This is the frontend component of the Employee Management System, a full-stack application. It provides a user-friendly interface for interacting with the employee data, built with React and communicating with a Spring Boot backend.
+[Backend repository](https://github.com/JTarangoDev/Employee-System-backend)
 
 ## Features
 
@@ -32,10 +33,11 @@ This is the frontend component of the Employee Management System, a full-stack a
 
 ## How to Run
 
-1. Clone the repository
-2. Navigate to the project directory
-3. Install dependencies.
-4. Start the React development server.
+1. Follow the [backend repository](https://github.com/JTarangoDev/Employee-System-backend) intructions.
+2. Clone the repository
+3. Navigate to the project directory
+4. Install dependencies.
+5. Start the React development server.
 
 ## Usage
 
